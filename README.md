@@ -46,7 +46,7 @@ A simple cash register application that calculates and returns the correct chang
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/cash-register-app.git
+   git clone https://github.com/SALAHEDDIN47/cash-register-app.git
    ```
 2. Open `index.html` in a browser.
 3. Start processing transactions! 💰
