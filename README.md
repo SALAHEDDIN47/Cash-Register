@@ -10,10 +10,6 @@ A simple cash register application that calculates and returns the correct chang
 - 📊 Tracks cash in the register
 - 🎨 User-friendly and responsive UI
 
-## 🖼️ Screenshots
-
-![App Screenshot](path/to/screenshot.png) *(Replace with an actual image link)*
-
 ## 🛠️ Technologies Used
 
 - **HTML** – Structure of the app
