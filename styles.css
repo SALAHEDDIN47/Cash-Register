@@ -1,74 +1,134 @@
-
+/* Reset Styles */
 *,
-*::before
-*::after{
-  margin: 0;
-  box-sizing: border-box;
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
-    background-color: dimgrey;
-    margin: 100px;
-}
-.title {
-    text-align: center;
-    line-height: 90px;
-    background-color: rgb(0, 0, 159);
-    width: 250px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 5px;
-
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 80px;
 }
 
-.paragraph {
-    height: 250px;
-    width: 250px;
-    background-color: rgb(127, 9, 236);
-    border-radius: 5px;
-    padding: 20px;
-    margin: 15px;
-}
-
+/* Container */
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Title */
+.title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Cashier Box */
 .cashier {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
-    height: 600px;
-    width:250px;
-    background-color: cornflowerblue;
+    background: #2980b9;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Cash Input Section */
 .cash-input {
-    margin: 10px;
     display: flex;
-    flex-direction: row;
     gap: 10px;
+    margin: 15px 0;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c0392b;
+}
+
+/* Total Box */
+.total-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Change Box */
+.change-box {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.change-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
     border-radius: 5px;
 }
 
+.change {
+    font-size: 16px;
+    padding: 3px 0;
+}
+
+/* Last Box (Footer) */
 .lastbox {
     display: flex;
-    flex-direction:column;
-    align-items: center;
     justify-content: center;
-    width: 250px;
-    height:50px;
-    background-color: rgb(84, 84, 84) ;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: #222;
     border-radius: 5px;
+    margin-top: 15px;
 }
 
 .cercle {
     height: 20px;
     width: 20px;
-    background-color: aliceblue;
-    border-radius: 100%;
+    background: white;
+    border-radius: 50%;
 }
